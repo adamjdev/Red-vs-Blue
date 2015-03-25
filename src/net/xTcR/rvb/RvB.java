@@ -76,29 +76,29 @@ public class RvB extends JavaPlugin
         
         System.out.println("Red vs Blue] Config loaded!");
         
-		respawn_time = getConfig().getInt("Respawn.time");
+	respawn_time = getConfig().getInt("Respawn.time");
 
-		System.out.println("[WarFighter] Setting timelimit...");
+	System.out.println("[WarFighter] Setting timelimit...");
 
-		timeLimit = getConfig().getInt("General.timelimit") / 60;
+	timeLimit = getConfig().getInt("General.timelimit") / 60;
 
-		time = getConfig().getInt("General.timelimit");
+	time = getConfig().getInt("General.timelimit");
 
-		System.out.println("Loading Time Limit...");
+	System.out.println("Loading Time Limit...");
 
-		unlimitedTime = getConfig().getBoolean("General.unlimtedtime");
+	unlimitedTime = getConfig().getBoolean("General.unlimtedtime");
 
-		System.out.println("Loading Time Preferences...");
+	System.out.println("Loading Time Preferences...");
 
-		unlimitedScore = getConfig().getBoolean("General.unlimtedscore");
+	unlimitedScore = getConfig().getBoolean("General.unlimtedscore");
 
-		System.out.println("Loading Score Preferences...");
+	System.out.println("Loading Score Preferences...");
 
-		System.out.println(timeLimit + "minutes");
+	System.out.println(timeLimit + "minutes");
 
-		System.out.println("[Red vs Blue] Registering events...");
+	System.out.println("[Red vs Blue] Registering events...");
 		
-		// Commands will be loaded here
+	// Commands will be loaded here
     }
     // This command wont matter in the future
     public final String Game_Version = "1.0";
